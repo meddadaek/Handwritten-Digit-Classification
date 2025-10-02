@@ -20,13 +20,6 @@ This project trains and evaluates multiple machine learning models on the classi
 - Performs **GridSearchCV** for hyperparameter tuning.
 - Visualizes results with **confusion matrices**.
 
----
-
-yaml
-Copier le code
-
----
-
 Install dependencies:
 
 bash
