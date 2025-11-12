@@ -70,7 +70,7 @@ for name, model in models.items():
     print(f"Tuned {name} Classification Report:\n", classification_report(y_test, y_pred_tuned))
     
     cm = confusion_matrix(y_test, y_pred_tuned)
-    plt.figure(figsize=(8,6))
+    plt.figure(figsize=(10,8))
     plt.imshow(cm, interpolation='nearest', cmap=plt.cm.Blues)
     plt.title(f'Tuned {name} Confusion Matrix')
     plt.colorbar()
